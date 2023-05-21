@@ -1,5 +1,5 @@
 #!/bin/bash
-## small script to run the analysis
+## small script to run the analysi
 analysis="main_HZZAnalysis"
 
 ##OPTION
