@@ -5,7 +5,7 @@
 ////
 //// DISCLAIMER:
 //// This Software is intended for educational use only!
-//// Under no circumstances does it qualify to reproduce actual ATLAS analysis results or produce publishable results!
+//// Under no circumstances does it qualfy to reproduce actual ATLAS analysis results or produce publishable results!
 /////////////////////////////////////////////////////////////
 
 #define HWWAnalysis_cxx
