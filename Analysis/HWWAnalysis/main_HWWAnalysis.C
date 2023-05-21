@@ -13,8 +13,13 @@ void main_HWWAnalysis(int proof = 0, int option= 0)
 
   /* The URL to the ATLAS Open Data website repository */
   TString path = "https://atlas-opendata.web.cern.ch/atlas-opendata/samples/2020/2lep/";
-  
-  
+
+  //***************************************************************************************************//
+  // adding chains of all MC and data samples
+  // option==0 will run all one by one
+  // Currently 5 options for MC (2,3,4,5,6) and 4 for data (11,12,13,14) which can be run in parallel
+  // If using the options (11,12,13,14) of splitting data, 
+  // you need to add the samples later with: hadd data.root dataA.root dataB.root dataC.root dataD.root
   //***************************************************************************************************//
   if (proof == 1)  TProof::Open("");
   
@@ -215,3 +220,4 @@ void main_HWWAnalysis(int proof = 0, int option= 0)
 
   
 }
+
