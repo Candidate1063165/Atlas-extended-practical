@@ -15,8 +15,6 @@ void main_HZZAnalysis(int proof = 0, int option= 0)
   /* The URL to the ATLAS Open Data website repository */
   TString path  = "https://atlas-opendata.web.cern.ch/atlas-opendata/samples/2020/4lep/";
   TString path2 = "https://atlas-opendata.web.cern.ch/atlas-opendata/samples/2020/2lep/";
-  
- 
 
   //***************************************************************************************************//
   // adding chains of all MC and data samples
