@@ -14,7 +14,7 @@ class HZZAnalysis : public TSelector {
   public :
   TTree          *fChain;   //!pointer to the analyzed TTree or TChain
 
-  //////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////
   // histograms
 
   // Global variables histograms
