@@ -13,7 +13,7 @@ echo Option is $varname
 option=$varname
 
 if (( ($option == 11) || ($option == 12) || ($option == 13) || ($option == 14) || ($option == 0)  )) ; then
-        echo 'WARNING! After running, you need to add the samples using: hadd data.root dataA.root dataB.root dataC.root dataD.root'
+        echo 'WARNING! After running you need to add the samples using: hadd data.root dataA.root dataB.root dataC.root dataD.root'
 fi
 
 echo Should I use PROOF? \(will make things faster\)
