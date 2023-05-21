@@ -12,23 +12,9 @@ void main_HWWAnalysis(int proof = 0, int option= 0)
   //TString path = "/eos/project/a/atlas-outreach/projects/open-data/OpenDataTuples/renamedLargeRJets/2lep/";
 
   /* The URL to the ATLAS Open Data website repository */
-  //TString path = "https://atlas-opendata.web.cern.ch/atlas-opendata/samples/2020/2lep/";
+  TString path = "https://atlas-opendata.web.cern.ch/atlas-opendata/samples/2020/2lep/";
   
-  /* The URL to the CERN Open Data portal repository */
-  TString path = "http://opendata.cern.ch/eos/opendata/atlas/OutreachDatasets/2020-01-22/2lep/";
   
-  /* The XROOTD path to the CERN Open Data portal repository */
-  //TString path = "root://eospublic.cern.ch//eos/opendata/atlas/OutreachDatasets/2020-01-22/2lep/";
-  
-  /* An external mirror */
-  //TString path = "http://www.universidad.ch/ATLAS/outreach/open-data-2020/2lep/";
-
-  //***************************************************************************************************//
-  // adding chains of all MC and data samples
-  // option==0 will run all one by one
-  // Currently 5 options for MC (2,3,4,5,6) and 4 for data (11,12,13,14) which can be run in parallel
-  // If using the options (11,12,13,14) of splitting data, 
-  // you need to add the samples later with: hadd data.root dataA.root dataB.root dataC.root dataD.root
   //***************************************************************************************************//
   if (proof == 1)  TProof::Open("");
   
