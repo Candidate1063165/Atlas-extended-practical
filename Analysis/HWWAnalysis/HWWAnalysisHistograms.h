@@ -10,7 +10,7 @@ void HWWAnalysis::define_histograms()
   // HISTOGRAMS
   
   // Global variables histograms
-  hist_mLL          = new TH1F("hist_mLL",       "Mass of Dilepton System; m_{ll} [GeV];Events / bin", 30, 0, 170);
+  hist_mLL          = new TH1F("hist_mLL",       "Mass f Dilepton System; m_{ll} [GeV];Events / bin", 30, 0, 170);
   hist_ptLL         = new TH1F("hist_ptLL",      "Transverse Momentum of Dilepton System; p_{T}^{ll} [GeV];Events / bin", 30, 0, 200);
   hist_dPhi_LL      = new TH1F("hist_dPhi_LL",   "dPhi_LL Dilepton System; #Delta#phi (ll);Events / bin", 20, 0, 3.2);
   hist_dPhiLLmet    = new TH1F("hist_dPhiLLmet", "dPhiLLmet Dilepton System; #Delta#phi (ll,E_{T}^{miss});Events / bin", 30, 0, 3.2);
